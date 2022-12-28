@@ -1,0 +1,25 @@
+section{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    height: 200px;
+    font-size: 32px;
+    display: flex;
+    }
+    
+    #content{
+    flex: 3;
+    background-color: aquamarine;
+    }
+    
+    #side{
+    flex: 1;
+    }
+    
+    header, footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+    font-size: 32px;
+    }

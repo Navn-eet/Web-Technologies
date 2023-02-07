@@ -4,24 +4,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navneet Verma - Web developer & Coder</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" type="image/x-icon" href="Res/tablogo.jpg">  <!-- Tab icom image -->
+    <title>Navneet Verma - Full Stack Developer</title>
+    <link rel="icon" type="image/x-icon" href="/Res/tablogo.jpg"> <!-- using favicontag to add an icon to show in mytab title -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd6af3c58d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="sidebar"></div>
-    <p>NAVNEET VERMA</p>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Introduction</li>
-            <li>Blog</li>
-            <li>Services</li>
-            <li>Photographs</li>
-            <li>CV</li>
-            <li>Contact</li>
-            <li>Refrences</li>
-        </ul>
-    </nav>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Res/logo.png" alt="my logo" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Unleash Your Imagination.</p>
+                <br>
+                <h1>Hi, I'm <span>Navneet.</span><br> Here to turn your visions <br> into digital masterpieces!</h1>
+            </div>
+        </div>
+    </div>
+    <!-- aboout section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Res/photo.JPG" alt="my photo">
+                </div>
+                <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <br>
+                <p>Welcome to the tech-tastic world of Navneet Verma! Brace yourself for a journey through the mind of a future tech giantprepare to be tickled by his witty remarks along the way. My mission is to conquer the tech industry and leave a lasting impact as a full-stack developer. With a passion for coding and a never-ending drive to innovate, and a good sense of humor, I am destined for greatness. Get ready to be inspired, entertained, and join the journey towards building the next big tech company with a side of chuckles!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Beginner at Web Development.</li>
+                        <br>
+                        <li><span>Python</span><br>Beginner at Pyhton.</li>
+                        <br>
+                        <li><span>Java</span><br>Beginner at Java.</li>
+                        <br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>No experience yet.</span><br>Learning on my own and will be a freelancer soon.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>Bachelors - Herald College Kathmandu - Bsc.Hons Computer Science</li><br>
+                        <li><span>2020</span><br>Intermediate - Kathmandu Model College - 3.01 GPA</li><br>
+                        <li><span>2018</span><br>SEE - Siddhartha Shishu Sadan - 3.04 GPA</li><br>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-browsers"></i>
+                    <h2>Web Development</h2>
+                    <p>In the future, I will become a web development master, starting from my humble beginnings as a beginner. I'll be learning HTML, CSS, JavaScript and various frameworks, expanding my knowledge and skills to build dynamic, responsive and engaging websites. I'll be tinkering with codes and experimenting with design, continuously challenging myself to improve. With practice and dedication, I'll be able to take on any project that comes my way and produce top-notch results. And who knows, maybe I'll finally be able to understand why a semicolon is so important. Haha, bring on the challenges!</p>
+                    <a href="#">Learn more</a> 
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2>
+                    <p>In the future, I'm going to dive into the world of UI/UX design and become a master at creating user-centered digital products. I'll learn how to read users like a book, and turn their needs into intuitive, efficient and visually stunning interfaces. I'll also be honing my design skills with the latest software, conducting research and working with a dream team of cross-functional experts. But most importantly, I'm excited to finally have a legitimate excuse to play around with colors and shapes all day. Who says learning can't be fun?</p>
+                    <a href="#">Learn more</a> 
+                </div><div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Coding</h2>
+                    <p>In the future, I will be a coding master, skilled in turning my ideas into digital realities. I'll start as a beginner now, but with dedication and hard work, I'll master various programming languages, learn how to debug like a pro, and become proficient in software development. I'll also keep up with the latest technologies and continuously improve my skills. And when I'm not coding, I'll be busy solving the world's problems and saving the universe… or just relaxing with a good video game. But let's be real, I'll make sure that coding is my superpower in the future.</p>
+                    <a href="#">Learn more</a> 
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Clicks</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Res/boudha.jpeg" alt="Image of boudha stupa">
+                <div class="layer">
+                    <h3>Boudha</h3>
+                    <p>One of the best image I have taken.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Res/street.jpeg" alt="Streets!">
+                <div class="layer">
+                    <h3>Best Day</h3>
+                    <p>Even if the picture is a little blurry it was one of the BEST days of my life.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Res/sunset.jpeg" alt="Sunset">
+                <div class="layer">
+                    <h3>Sunset</h3>
+                    <p>Sunsets are beautiful, calming, and awe-inspiring.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Vnavneet731@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+977-9819655711</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/navneet.verma.336"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/nav.neet_22"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/navneet-verma-987bb9257/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="/Res/Navneet Verma_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Navneet Verma 2023 <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
 </body>
 </html>
